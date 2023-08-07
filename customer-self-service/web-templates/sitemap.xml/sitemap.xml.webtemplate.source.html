@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ {% assign siteUrl = request.url | replace: request.path, '' %}
+ <url>
+  <loc>{{ siteUrl| append: sitemap.root.url }}</loc>
+ </url>
+ {% for child in sitemap.root.children %}
+   <url>
+    <loc>{{ siteUrl| append: child.url }}</loc>
+   </url>
+   {% for subChild in child.children %}
+     <url>
+      <loc>{{ siteUrl| append: subChild.url }}</loc>
+     </url>
+     {% for subSubChild in subChild.children %}
+       <url>
+        <loc>{{ siteUrl| append: subSubChild.url }}</loc>
+       </url>
+       {% for subSubSubChild in subSubChild.children %}
+         <url>
+          <loc>{{ siteUrl| append: subSubSubChild.url }}</loc>
+         </url>
+         {% for subSubSubSubChild in subSubSubChild.children %}
+           <url>
+            <loc>{{ siteUrl| append: subSubSubSubChild.url }}</loc>
+           </url>
+         {% endfor %}
+       {% endfor %}
+     {% endfor %}
+   {% endfor %}
+ {% endfor %}
+</urlset>

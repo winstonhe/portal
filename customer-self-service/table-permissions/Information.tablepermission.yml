@@ -1,0 +1,12 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: cr1c2_test1130
+adx_entityname: Information
+adx_entitypermission_webrole:
+- ff54f608-70df-4637-81f7-dc40dc1b7d34
+adx_entitypermissionid: 66ea262e-c179-ed11-81ad-000d3a856666
+adx_read: true
+adx_scope: 756150000
+adx_write: true

@@ -1,0 +1,13 @@
+adx_authenticationrequired: true
+adx_editexistingrecordpermitted: true
+adx_multiplerecordsperuserpermitted: false
+adx_name: Winston Advanced Form
+adx_progressindicatorenabled: true
+adx_progressindicatorignorelaststep: false
+adx_progressindicatorposition: 756150000
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150000
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: true
+adx_startstep: a7a8a067-3c95-ec11-b400-0022481712a6
+adx_webformid: 6cca32f8-3b95-ec11-b400-0022481712a6

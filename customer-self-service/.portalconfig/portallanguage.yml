@@ -1,0 +1,12 @@
+- adx_displayname: 中文(台灣)
+  adx_languagecode: zh-TW
+  adx_lcid: 1028
+  adx_name: Chinese - Traditional
+  adx_portallanguageid: a80d4c19-5990-4e4a-accf-f269e8e5ec36
+  adx_systemlanguage: 1028
+- adx_displayname: English
+  adx_languagecode: en-US
+  adx_lcid: 1033
+  adx_name: English
+  adx_portallanguageid: da95b701-cb34-453c-b75e-8c5cf7fc5199
+  adx_systemlanguage: 1033

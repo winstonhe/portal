@@ -1,0 +1,12 @@
+adx_append: false
+adx_appendto: false
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: contact
+adx_entityname: Contact table permission for web api
+adx_entitypermission_webrole:
+- fed68c11-da8f-ed11-aad1-000d3a856666
+adx_entitypermissionid: 973da4fc-d98f-ed11-aad1-000d3a856666
+adx_read: true
+adx_scope: 756150000
+adx_write: true

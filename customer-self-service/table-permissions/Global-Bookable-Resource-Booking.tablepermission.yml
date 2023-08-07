@@ -1,0 +1,12 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: bookableresourcebooking
+adx_entityname: Global Bookable Resource Booking
+adx_entitypermission_webrole:
+- 3af20681-fc11-4e19-8bdc-f7416d37cf61
+adx_entitypermissionid: a000b830-54cf-ed11-a7c7-6045bd57c7d2
+adx_read: true
+adx_scope: 756150000
+adx_write: true

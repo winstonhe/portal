@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: false
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: annotation
+adx_entityname: Note_Attachment
+adx_entitypermission_webrole: []
+adx_entitypermissionid: a9339e67-cb79-ed11-81ad-000d3a856666
+adx_parententitypermission: b0cf1a65-cb79-ed11-81ad-000d3a856f51
+adx_parentrelationship: annotation_Annotations
+adx_read: false
+adx_scope: 756150003
+adx_write: false

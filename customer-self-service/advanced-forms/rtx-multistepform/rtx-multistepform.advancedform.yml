@@ -1,0 +1,13 @@
+adx_authenticationrequired: false
+adx_editexistingrecordpermitted: true
+adx_multiplerecordsperuserpermitted: true
+adx_name: rtx-multistepform
+adx_progressindicatorenabled: true
+adx_progressindicatorignorelaststep: false
+adx_progressindicatorposition: 756150000
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150000
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: false
+adx_startstep: 279d8020-2129-4938-a780-f7b734c3f2e5
+adx_webformid: c156f3ed-0090-4e5f-88a2-26823beb3a83

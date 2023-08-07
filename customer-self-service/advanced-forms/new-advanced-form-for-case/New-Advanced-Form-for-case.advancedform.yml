@@ -1,0 +1,13 @@
+adx_authenticationrequired: true
+adx_editexistingrecordpermitted: true
+adx_multiplerecordsperuserpermitted: false
+adx_name: New Advanced Form for case
+adx_progressindicatorenabled: true
+adx_progressindicatorignorelaststep: false
+adx_progressindicatorposition: 756150000
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150000
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: true
+adx_startstep: 64d34ea6-fa57-ec11-8f8f-000d3a815d60
+adx_webformid: dfa5ac7a-fa57-ec11-8f8f-000d3a815d60

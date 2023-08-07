@@ -1,0 +1,21 @@
+<!-- the snippet below assumes that JS SDK script has already loaded -->
+<script type="text/javascript" src=https://js.monitor.azure.com/scripts/b/ai.2.min.js></script>
+<script type="text/javascript">
+    var snippet = {
+        config: {
+            instrumentationKey: "01b2ac5d-39a9-42ea-9267-86eca450760c",
+            enableAutoRouteTracking:true
+        }
+    };
+    var init = new Microsoft.ApplicationInsights.ApplicationInsights(snippet);
+    var appInsights = init.loadAppInsights();
+
+    {% if user %}
+        var username= '{{user.fullname}}'.replaceAll(' ','_')  //  we need to replace the space as “_” as the authenticated user with space will not be tracked.  
+                 appInsights.setAuthenticatedUserContext(username);
+        {% else %}
+                 appInsights.clearAuthenticatedUserContext();
+        {% endif %}
+     
+    appInsights.trackPageView();   
+</script>

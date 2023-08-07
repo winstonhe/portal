@@ -1,0 +1,7 @@
+{% include 'Layout 1 Column' %}
+{% assign pagenum = 5 %}
+{% assign pathandquery = request.path_and_query %}
+{% if request.path_and_query contains 'page=' %}
+<div>{{ request.path_and_query | remove_query: 'page' }}</div>
+{% assign pathandquery = request.path_and_query | remove_query: 'page' %}
+{% endif %}

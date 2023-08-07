@@ -1,0 +1,10 @@
+- adx_name: 'Binding: MasterPortal/'
+  adx_sitename: MasterPortal
+  adx_virtualpath: /
+  adx_websitebindingid: 55dc123a-76c1-ed11-83fe-6045bd57c834
+- adx_name: 'Binding: winston.powerappsportals.com'
+  adx_sitename: winston.powerappsportals.com
+  adx_websitebindingid: 5f124ea9-ea53-ec11-8f8e-0022481668b7
+- adx_name: 'Binding: portal.winstondriver.cn'
+  adx_sitename: portal.winstondriver.cn
+  adx_websitebindingid: eafd78d9-820c-ee11-8f6e-6045bd57c7d2

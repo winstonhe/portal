@@ -1,0 +1,12 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: new_rtx
+adx_entityname: rtx
+adx_entitypermission_webrole:
+- ff54f608-70df-4637-81f7-dc40dc1b7d34
+adx_entitypermissionid: d1fdf4be-a493-ec11-b400-0022481712a6
+adx_read: true
+adx_scope: 756150000
+adx_write: true
