@@ -1,3 +1,3 @@
 function blurtest(){
-alert("blur is occuring")
+alert("blur is occuring");
 }
